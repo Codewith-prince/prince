@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 255, 0.505);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.btn{
+   float: left;
+    width: 100px;
+    height: 50px;
+    margin:10px 40px 30px 20px;
+    border-radius: 20px 0px 20px 0px;
+    border: none;
+    background-color: chartreuse;
+    color: white;
+    font-size: 15px;
+    font-family: century gothic;
+    font-weight: bold;             
+    animation-name: prince;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
+@keyframes prince{
+    0%{background-image: url(img/download\ \(1\).jpg);}
+    25%{background-image: url(img/2.jpg);}
+    50%{background-image: url(img/3.jpg);}
+    72%{background-image: url(img/4.jpg);}
+}
+p{
+    float: right;
+    margin-right: 20px;
+    margin-top: 24px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+span{
+    font-size:19px;
+    color: brown;
+    font-weight: 500;
+}
+.section{
+    width: 100%;
+    height: 760px;
+    background-image: url(img/backgrund1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+
+}
+
+@keyframes img{
+    0%{background-image: url(img/backgrund1.webp);}
+    25%{background-image: url(img/download\ \(1\).jpg);}
+    50%{background-image: url(img/istockphoto-1390285717-170667a.webp);}
+    72%{background-image: url(img/istockphoto-1432523967-170667a.webp);}
+100%{background-image: url(img/istockphoto-1432523967-170667a.webp);}
+}
+/* Contact*/
+
+#contact{
+    width:  847px;
+    height: 70vh;
+    border: 150px solid rgba(170, 255, 0, 0.669);
+}
+.box{
+    width:844px;
+    height: 580px;
+    border: 2px solid rgba(0, 0, 0, 0.669);
+    background-color: rgba(245, 222, 179, 0.383);
+    
+}
+.frm{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: blue;
+    
+}
+form{
+    display: inline-block;
+}
+.label-1{
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+#text-1{
+    margin-left: 50px;
+  
+    width: 300px;
+    height: 30px;
+    border: none;
+    
+}
+.label-2{
+    margin-top: 60px;
+    margin-left: 490px;
+    font-size: 20px;
+
+}
+#text-2{
+    float: right;   
+    width: 300px;
+    height: 30px;
+    border: none;
+    margin-right: 50px;
+
+}
+
+.label-3{
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+#text-3{
+    margin-left: 50px;
+  
+    width: 300px;
+    height: 30px;
+    border: none;
+
+}
+
+.label-4{
+
+    margin-top: 60px;
+    margin-left: 490px;
+    font-size: 20px;
+   
+}
+#text-4{
+    width: 300px;
+    height: 30px;
+    border: none;
+    float: right;
+    margin-right: 50px;
+    
+
+}
+.label-5{
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+#text-5{
+    margin-left: 50px;
+  
+    width: 300px;
+    height: 30px;
+    border: none;
+    
+}
+#submit-btn{
+    width: 90px;
+    height: 40px;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-left: 400px;
+    border: none;
+    background-color: cadetblue;
+    box-shadow: 3px 4px 4px 3px ;
+    border-radius: 10px;
+}
+#submit-btn:hover{
+    background-color:rgba(0, 0, 255, 0.623)
+}
+
+/*end Contact*/
+/*About us*/
+
+.About-im{
+    width:  100%;
+    height: 100vh;
+   
+    
+    background-color: black;
+    
+}
+.About-im img{
+    width: 500px;
+    height: 700px;
+    margin-top: 60px;
+    margin-left: 30px;
+    position: relative;
+}
+img:hover{
+    background-color: rebeccapurple;
+}
+
+
+.about-box{
+    width: 614px;
+    height: 827px;
+    position: absolute;
+    top: 1710px;
+    left: 530px;
+}
+.about-text{
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+}
+ pre{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    top: 30px;
+    right: 20px;
+    font-family: sans-serif;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    color: blue;
+
+}
+    
